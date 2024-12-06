@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Trust Bank - Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffc107;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .account-info {
+            margin-bottom: 20px;
+        }
+        .account-info p {
+            margin: 5px 0;
+        }
+        .transaction-list {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #ffc107;
+            color: white;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Global Trust Bank - Dashboard</div>
+    <div class="container">
+        <div class="account-info">
+            <h2>Account Summary</h2>
+            <p><strong>Account Name:</strong> Rebecca</p>
+            <p><strong>Account Number:</strong> 9876543210</p>
+            <p><strong>Balance:</strong> $300,000.00</p>
+        </div>
+        <div class="transaction-list">
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-08-30</td>
+                        <td>Deposit</td>
+                        <td>$5,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-25</td>
+                        <td>Online Shopping</td>
+                        <td>-$500.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-20</td>
+                        <td>Bill Payment</td>
+                        <td>-$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-15</td>
+                        <td>Salary Credit</td>
+                        <td>$8,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-10</td>
+                        <td>Utility Bill</td>
+                        <td>-$150.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-08</td>
+                        <td>Restaurant</td>
+                        <td>-$75.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-05</td>
+                        <td>ATM Withdrawal</td>
+                        <td>-$300.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-08-01</td>
+                        <td>Deposit</td>
+                        <td>$1,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-07-30</td>
+                        <td>Transfer to Savings</td>
+                        <td>-$2,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-07-25</td>
+                        <td>Deposit</td>
+                        <td>$4,000.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="buttons">
+            <button onclick="alert('Withdraw option coming soon!')">Withdraw</button>
+            <button onclick="alert('Send Money option coming soon!')">Send Money</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p><strong>Bank Address:</strong> 10 Trust Avenue, Manchester, UK</p>
+        <p><strong>Customer Service:</strong> +44 789 456 1230</p>
+    </div>
+</body>
+</html>
